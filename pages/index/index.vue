@@ -34,7 +34,7 @@
 
 
 				<u-checkbox-group>
-					<u-checkbox v-model="checked" active-color="#6BCF01">
+					<u-checkbox v-model="checked" active-color="#0046AE">
 					</u-checkbox>
 					已阅读并同意
 					<span @click="open(1)">《用户协议》</span>
@@ -321,7 +321,7 @@
 	.wozhidap {
 		width: 60%;
 		margin: 0 auto;
-		background-color: #6BCF01;
+		background-color: #0046AE;
 		height: 60upx;
 		line-height: 60upx;
 		border-radius: 20upx;
@@ -386,10 +386,10 @@
 		font-weight: 400;
 		color: #fff;
 		line-height: 36upx;
-		background-color: #6BCF01;
+		background-color: #0046AE;
 		padding: 10upx 20upx;
 		border-radius: 6upx;
-		box-shadow: 5upx 5upx 10upx #73DE00;
+		box-shadow: 5upx 5upx 10upx #0046AE;
 	}
 
 	.login-phone-btns {
@@ -401,7 +401,7 @@
 		margin: 286rpx auto;
 		height: 74rpx;
 		width: 484rpx;
-		background-color: #6BCF01;
+		background-color: #0046AE;
 		color: #ffffff;
 		border-radius: 40rpx;
 		font-size: 24upx;
@@ -417,7 +417,7 @@
 	}
 
 	.u-checkbox-group span {
-		color: #6BCF01;
+		color: #0046AE;
 		margin-left: 5rpx;
 	}
 
@@ -438,7 +438,7 @@
 
 	>>>.u-model__footer__button {
 		height: 74rpx;
-		background: #6BCF01;
+		background: #0046AE;
 		color: #FFFFFF !important;
 		font-size: 24rpx;
 		display: flex;
