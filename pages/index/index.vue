@@ -149,13 +149,13 @@
 
 			getVerCode() {
 				
-				if (this.mobile.length != 11) {
-					this.$utils.toast('邮箱不正确', 'top');
+				if (this.mobile == "") {
+					this.$utils.toast('请输入邮箱', 'top');
 					return false;
 				}
 				
-				if (!/^1[3456789]\d{9}$/.test(this.mobile)) {
-					this.$utils.toast('请输入邮箱', 'top');
+				if (!/^\w+@[a-z0-9]+\.[a-z]{2,4}$/.test(this.mobile)) {
+					this.$utils.toast('邮箱不正确', 'top');
 					return;
 				}
 				
@@ -165,7 +165,7 @@
 			},
 			// 验证码子组件返回
 			async Captcha() {
-				this.$utils.toast('短信发送成功', 'top');
+				this.$utils.toast('邮箱发送成功', 'top');
 				this.getCode()
 			},
 
@@ -264,11 +264,11 @@
 				////console.log('fa')
 				//、短信类型（0注册/1重置密码/2快捷登录）
 				if (this.mobile == '') {
-					this.$utils.toast('请输入手机号', 'top');
+					this.$utils.toast('请输入邮箱地址', 'top');
 					return;
 				}
-				if (!/^1[3456789]\d{9}$/.test(this.mobile)) {
-					this.$utils.toast('手机号码有误，请重填', 'top');
+				if (!/^\w+@[a-z0-9]+\.[a-z]{2,4}$/.test(this.mobile)) {
+					this.$utils.toast('邮箱地址不正确，请重填', 'top');
 					return;
 				}
 				if (this.isGet) {
