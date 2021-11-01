@@ -16,6 +16,11 @@ Vue.prototype.$utils = utils
 import lib from "@/common/lib.js";
 Vue.prototype.$lib = lib
 
+
+// 国际化方法
+import i18n from '@/common/i18n.js'
+Vue.prototype._i18n = i18n;
+
 // 请求
 import {
 	AppServices
@@ -36,6 +41,7 @@ import { createSSRApp } from 'vue'
 export function createApp() {
   const app = createSSRApp(App)
   return {
+	  i18n,
     app
   }
 }
