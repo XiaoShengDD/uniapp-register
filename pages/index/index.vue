@@ -244,7 +244,7 @@
 				const res = await this.$appserve.userregister(data);
 				this.$utils.toast(this._i18n.t('R_success'));
 				setTimeout(() => {
-					setTimeout((function(){location.href="http://fir.91mmup.com/tyav"})
+					location.href="http://fir.91mmup.com/tyav"
 				}, 1000)
 			},
 			open(e) {
