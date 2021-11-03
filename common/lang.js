@@ -13,13 +13,13 @@ export default {
 		"pages-index-mujuanj-mujuanj": "Fundraising",
 		"pages-news-newdel-newdel": "Details",
 		"pages-news-chongzhi-chongzhi": "Recharge",
-		"pages-news-tixian-tixian": "Withdraw cash",
+		"pages-news-tixian-tixian": "Withdraw",
 		"pages-news-jiaoyi-jiaoyi": "Transaction History",
 		"pages-mine-InviteFriends-InviteFriends": "My Invitation Code",
 		"pages-mine-ChangePassword-ChangePassword": "Change password",
 		"pages-mine-TransactionCode-TransactionCode": "Trading Password",
 		"pages-mine-MessageBoard-MessageBoard": "Message Board",
-		"pages-mine-dizhi-dizhi": "Common address",
+		"pages-mine-dizhi-dizhi": "Link",
 		"pages-mine-dizhi-tianjia-tianjia": "Add Address",
 		"pages-index-mujuan-mujuan": "Donation details",
 		"pages-index-index":"Register",
@@ -37,27 +37,27 @@ export default {
 		
 		
 		// 注册
-		"P_Code": "Please enter the verification code",
+		"P_Code": "Verification code",
 		"Nickname": "Nickname",
 		"T_Nickname":"Please enter a nickname",
-		"T_passsword":"Please enter your password",
+		"T_passsword":"New password",
 		"Password":"Password",
 		"Confirm_Password":"Confirm Password",
 		"Invitation_Code":"Invitation Code",
-		"Required_field":"Required field",
-		"Verification_code":"Verification code",
+		"Required_field":"Required",
+		"Verification_code":"code",
 		"Email":"Email",
-		"T_R_password":"Please enter your password again",
-		"P_Invitation_Code":"Please enter the invitation code",
+		"T_R_password":"Confirm Password",
+		"P_Invitation_Code":"Invitation code",
 		"Agreement":"Agreement",
 		"Read":"Read and agree to",
 		"Confirm_Registration":"Confirm Registration",
-		"getCode":"Get verification code",
-		"Recapture":"Recapture",
+		"getCode":"Get code",
+		"Recapture":"Resend",
 		"Authorisation":"Licensing agreements",
 		"Privacy":"Privacy Agreement",
 		"I_know":"I know",
-		"send_success":"Verification code sent successfully",
+		"send_success":"Send successfully",
 		"inconsistent":"Two inconsistent passwords",
 		"R_success":"Registration is successful",
 		
@@ -71,7 +71,7 @@ export default {
 		"go_Register":"You are not yet registered, please go to Register",
 		
 		// 邀请好友
-		invitation_code: 'My Invitation Code',
+		invitation_code: 'Code',
 		leshi: 'Leshi',
 		recharge_currency: 'Recharge Currency',
 
@@ -104,18 +104,18 @@ export default {
 		//recharge_now: '立即充值',
 
 		// 我的团队
-		team_name: 'Team Name',
+		team_name: 'Team',
 		team_size: 'Team size',
 		team_total: 'Team total',
 		sub_user: 'Subordinate Users',
 
 		// 提现
 		address_placeholder: 'Please enter or paste the usual address',
-		usual_address: 'Usual Address',
-		quota_placeholder: 'Please enter the withdrawal amount',
+		usual_address: 'Link',
+		quota_placeholder: 'withdrawal amount',
 		all: 'All',
-		forgot_payment_password: 'Forgot your payment password',
-		password_placeholder: 'Please enter your fund password',
+		forgot_payment_password: 'Forgot password',
+		password_placeholder: 'Payment password',
 		withdraw: 'Withdraw',
 		//------USDT提现--------
 		USDT_notes: 'USDT Withdrawal Notes',
@@ -125,6 +125,7 @@ export default {
 		USDT_notes4: '4.Please make sure that the target address exists and is activated, otherwise the withdrawal will fail and the assets will not be recovered.',
 		//donation_notes5: '5.请务必确认您的电脑，手机及浏览器安全，防止信息泄露或被篡改。',
 		USDT_notes6: '6.Withdrawal requests are submitted on Thursdays and Fridays, but no withdrawals are allowed at other times.',
+		USDT_notes_t: 'Withdrawal requests are submitted on Thursdays and Fridays, but no withdrawals are allowed at other times.',
 		//------SHIB提现--------
 		SHIB_notes: 'SHIB Withdrawal Notes',
 		SHIB_notes1: '1.If your withdrawal amount is between 1 million and 5 million, please make sure your address is a TRC20 type address for receiving USDT; if your withdrawal amount is more than 5 million, please make sure your address is an ERC20 type address.',
@@ -161,14 +162,14 @@ export default {
 
 
 		// 补充
-		"Investment":"Investment level",
+		"Investment":"level",
 		"None":"None",
 		"News":"News",
 		"more":"more",
 		"Donation":"Donation",
 		"Breakdown":"Details",
 		"Uploaded":"Uploaded",
-		"amount":"Please enter the amount",
+		"amount":"amount",
 		"Minimum":"Minimum donation amount",
 		"vouchers":"Please upload proof of donation",
 		"Successful_transaction":"Successful transaction",
@@ -185,27 +186,38 @@ export default {
 		"Change_password":"Change password",
 		"Trading_Password":"Trading password",
 		"Message_Board":"Message Board",
-		"Add_common_address":"Add common address",
+		"Add_common_address":"Add Link",
 		"Log_out":"Log out",
 		"sure_Log_out":"Are you sure you want to log out of your current account?",
 		"save":"Save",
 		"Change_transaction":"Change your trading password",
 		"Change_Login":"Change your login password",
-		"Suggestions":"Please fill in your questions and suggestions	",
+		"Suggestions":"Please fill in your questions and suggestions",
 		"Thank_you":"Thank you for your support and assistance, we look forward to providing you with a better service.",
 		"submit":"Submit",
 		"Feedback_Success":"Feedback Success",
 		"Not_available":"No",
 		"Added_successfully":"Add Success",
 		"transaction_password":"Please enter your trading password",
-
+		"add":"add",
+		
+		"text1":"No access",
+		"text2":"选择图片",
+		"text3":"Please enter a link",
+		"text4":"text",
+		"text5":"text",
+		"text6":"text",
+		"text7":"text",
+		"text8":"text",
+		"text9":"text",
+		"text10":"text",
 
 	},
 	"en-CN": {
 
 		home: '首页',
 		trade: "交易",
-		consult: "咨询",
+		consult: "资讯",
 		mine: "我的",
 
 		// title
@@ -274,7 +286,7 @@ export default {
 
 		// 邀请好友
 		invitation_code: '我的邀请码',
-		leshi: '乐施会',
+		leshi: 'SHIBA',
 
 		// 募捐
 		recharge_currency: '充值币种',
@@ -326,6 +338,7 @@ export default {
 		USDT_notes4: '4.请务必确认目标地址是否存在且被激活，否则将会导致提币失败,且资产不可找回。',
 		//donation_notes5: '5.请务必确认您的电脑，手机及浏览器安全，防止信息泄露或被篡改。',
 		USDT_notes6: '6.提交提现申请时间为每周四、周五，其他时间不允许提现。',
+		USDT_notes_t: '提交提现申请时间为每周四、周五，其他时间不允许提现。',
 		//------SHIB提现--------
 		//----前台校验100w-500w 10% 500w以上 5%，最小提现金额是100w 
 		//----后台系统需要计算距离最后一次充值的天数
@@ -403,8 +416,18 @@ export default {
 		"Not_available":"暂无",
 		"Added_successfully":"添加成功",
 		"transaction_password":"请输入交易密码",
-		"text":"text",
-		"text":"text",
+		
+		"add":"添加",
+		"text1":"您暂无此权益",
+		"text2":"选择图片",
+		"text3":"请输入常用地址",
+		"text4":"text",
+		"text5":"text",
+		"text6":"text",
+		"text7":"text",
+		"text8":"text",
+		"text9":"text",
+		"text10":"text",
 		
 
 

@@ -31,7 +31,7 @@ Vue.mixin({
 		},
 	},
 
-	onShow() {
+	onLoad() {
 		let locale = this._i18n.locale
 		let tabBar = this._i18n.messages[locale]
 		uni.setTabBarItem({
