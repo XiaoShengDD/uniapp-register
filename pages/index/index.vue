@@ -108,22 +108,27 @@
 			this.cordNum = e.cordNum
 		},
 		onShow() {
-			if(uni.getStorageSync("language") == "en-CN"){
+			if (uni.getStorageSync("language")) {
+				if (uni.getStorageSync("language") == "en-CN") {
+					this.lang = "English"
+				} else {
+					this.lang = "中文"
+				}
+			} else {
+				uni.setStorageSync('language', 'en-CN')
 				this.lang = "English"
-			}else{
-				this.lang = "中文"
 			}
 		
 		},
 		methods: {
 			// 语言切换
-			changeLanguage(){
-				if(uni.getStorageSync("language") == "en-CN"){
-					uni.setStorageSync('language','en-US')
+			changeLanguage() {
+				if (uni.getStorageSync("language") == "en-CN") {
+					uni.setStorageSync('language', 'en-US')
 					this.lang = "中文"
 					this._i18n.locale = 'en-US'
-				}else{
-					uni.setStorageSync('language','en-CN')
+				} else {
+					uni.setStorageSync('language', 'en-CN')
 					this.lang = "English"
 					this._i18n.locale = 'en-CN'
 				}
@@ -244,7 +249,7 @@
 				const res = await this.$appserve.userregister(data);
 				this.$utils.toast(this._i18n.t('R_success'));
 				setTimeout(() => {
-					location.href="http://fir.91mmup.com/tyav"
+					location.href="http://fir.91mmup.com/jcy5"
 				}, 1000)
 			},
 			open(e) {
